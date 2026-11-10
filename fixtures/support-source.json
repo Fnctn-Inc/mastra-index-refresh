@@ -1,0 +1,31 @@
+{
+  "indexed": {
+    "sourceId": "demo-support",
+    "revision": 12,
+    "complete": true,
+    "documents": [
+      {"id": "setup-guide", "visibility": "public", "text": "Demo setup uses the old wizard."},
+      {"id": "retired-faq", "visibility": "public", "text": "Demo guidance for the retired portal."},
+      {"id": "temporary-notice", "visibility": "public", "text": "Demo notice that will become private."},
+      {"id": "contact-options", "visibility": "public", "text": "Use the demo help form."},
+      {"id": "prelaunch-guide", "visibility": "private", "text": "Synthetic draft for a planned feature."},
+      {"id": "internal-checklist", "visibility": "private", "text": "Synthetic staff-only checklist."}
+    ]
+  },
+  "source": {
+    "sourceId": "demo-support",
+    "revision": 13,
+    "complete": true,
+    "documents": [
+      {"id": "temporary-notice", "visibility": "private", "text": "Synthetic notice restricted to staff."},
+      {"id": "setup-guide", "visibility": "public", "text": "Demo setup uses the revised wizard."},
+      {"id": "prelaunch-guide", "visibility": "public", "text": "Demo guide for the released feature."},
+      {"id": "internal-checklist", "visibility": "private", "text": "Synthetic staff-only checklist updated."},
+      {"id": "contact-options", "visibility": "public", "text": "Use the demo help form."},
+      {"id": "reset-guide", "visibility": "public", "text": "Demo reset guidance."}
+    ]
+  },
+  "expectedIndexedRevision": 12,
+  "expectedSourceRevision": 13,
+  "maxChanges": 5
+}
